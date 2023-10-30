@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fde68799abc8fb3ae869bd2368eae562 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fde68799abc8fb3ae869bd2368eae562" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fde68799abc8fb3ae869bd2368eae562 = L.map(
+                "map_fde68799abc8fb3ae869bd2368eae562",
+                {
+                    center: [40.4637, -3.7492],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2c58f87982b7d6ac21e0d06be5590bed = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca target=\"_blank\" href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca target=\"_blank\" href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            var marker_f61b3a6fd08b146f8ead25b3da530322 = L.marker(
+                [40.45321, -3.36882],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_f61b3a6fd08b146f8ead25b3da530322.bindTooltip(
+                `<div>
+                     Club: Real Madrid<br>Stadium Capacity: 85000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_779605a6eb7372ad073629194d589ab7 = L.marker(
+                [41.38106, 2.12288],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_779605a6eb7372ad073629194d589ab7.bindTooltip(
+                `<div>
+                     Club: FC Barcelona<br>Stadium Capacity: 100000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8857bab39535a6f86d74016c349c05a2 = L.marker(
+                [40.43625, -3.59952],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_8857bab39535a6f86d74016c349c05a2.bindTooltip(
+                `<div>
+                     Club: Atletico Madrid<br>Stadium Capacity: 45000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aeff950e05b5578dff5350c99b8e4a89 = L.marker(
+                [37.38424, -5.971007],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_aeff950e05b5578dff5350c99b8e4a89.bindTooltip(
+                `<div>
+                     Club: Sevilla<br>Stadium Capacity: 50000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6bdee636cf189c68e2c73ec76b5c00d = L.marker(
+                [37.35667, -5.98172],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_d6bdee636cf189c68e2c73ec76b5c00d.bindTooltip(
+                `<div>
+                     Club: Real Betis<br>Stadium Capacity: 53289
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64f0fb13fbf170b4bb9cb0d6d2b6b8e4 = L.marker(
+                [43.3015, -1.97359],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_64f0fb13fbf170b4bb9cb0d6d2b6b8e4.bindTooltip(
+                `<div>
+                     Club: Real Sociedad<br>Stadium Capacity: 70,460
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79c8f88354bd8d7e57b123f86e199897 = L.marker(
+                [39.94402, -0.10307],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_79c8f88354bd8d7e57b123f86e199897.bindTooltip(
+                `<div>
+                     Club: Villarreal<br>Stadium Capacity: 23,500
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_188faa4aa83df25e007f80d70988928d = L.marker(
+                [43.26433, -2.94938],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_188faa4aa83df25e007f80d70988928d.bindTooltip(
+                `<div>
+                     Club: Athletic Club<br>Stadium Capacity: 53,289
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b326ef4dcd28a583891d512eb890b01 = L.marker(
+                [39.58406, -0.32735],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_0b326ef4dcd28a583891d512eb890b01.bindTooltip(
+                `<div>
+                     Club: Valencia<br>Stadium Capacity: 49,430
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06fd2648f3e5b0ad6b8a775e67852e4f = L.marker(
+                [42.79687, -1.63706],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_06fd2648f3e5b0ad6b8a775e67852e4f.bindTooltip(
+                `<div>
+                     Club: Osasuna<br>Stadium Capacity: 23,576
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de09c80219489b154014959bd6b39c85 = L.marker(
+                [42.6013, -8.65185],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_de09c80219489b154014959bd6b39c85.bindTooltip(
+                `<div>
+                     Club: Celta Vigo<br>Stadium Capacity: 29,000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da36d93c5388dc61ff680e19654011e9 = L.marker(
+                [40.39216, -3.65865],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_da36d93c5388dc61ff680e19654011e9.bindTooltip(
+                `<div>
+                     Club: Rayo Vallecano<br>Stadium Capacity: 14,708
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33113af20e43715d307f55d725fbdea6 = L.marker(
+                [38.26719, -0.66277],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_33113af20e43715d307f55d725fbdea6.bindTooltip(
+                `<div>
+                     Club: Elche<br>Stadium Capacity: 31,388
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ae94bc93b116ad6dbe70ab9389b7725 = L.marker(
+                [41.34837, -2.07453],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_6ae94bc93b116ad6dbe70ab9389b7725.bindTooltip(
+                `<div>
+                     Club: Espanyol<br>Stadium Capacity: 40,000
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ec87e7cac98fc765eadb36314eb53da = L.marker(
+                [40.32591, -3.71497],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_0ec87e7cac98fc765eadb36314eb53da.bindTooltip(
+                `<div>
+                     Club: Getafe<br>Stadium Capacity: 16,500
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14ca1fc6fadede730c6364754ac427d7 = L.marker(
+                [39.59022, -2.62991],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_14ca1fc6fadede730c6364754ac427d7.bindTooltip(
+                `<div>
+                     Club: Mallorca<br>Stadium Capacity: 23,142
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f430f2ea7ec0749a3cedbb2fdb8efc69 = L.marker(
+                [36.50272, -6.27294],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_f430f2ea7ec0749a3cedbb2fdb8efc69.bindTooltip(
+                `<div>
+                     Club: Cadiz<br>Stadium Capacity: 25,033
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ab83d312426e25c3356f6a97b676043 = L.marker(
+                [37.15299, -3.59571],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_3ab83d312426e25c3356f6a97b676043.bindTooltip(
+                `<div>
+                     Club: Granada<br>Stadium Capacity: 19,336
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31f758edc2a975b6222d32732781cad8 = L.marker(
+                [39.49482, -0.36383],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_31f758edc2a975b6222d32732781cad8.bindTooltip(
+                `<div>
+                     Club: Levante<br>Stadium Capacity: 26,354
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c19c9df0a90a468869020387e2a7b56f = L.marker(
+                [42.83713, -2.68818],
+                {}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+    
+            marker_c19c9df0a90a468869020387e2a7b56f.bindTooltip(
+                `<div>
+                     Club: Alaves<br>Stadium Capacity: 19,840
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var heat_map_b2c9f3f46d5ef3112937c9fdfe155ac4 = L.heatLayer(
+                [[40.45321, -3.36882, 350.0], [41.38106, 2.12288, 310.0], [40.43625, -3.59952, 35.0], [37.38424, -5.971007, 7.0], [37.35667, -5.98172, 5.8], [43.3015, -1.97359, 4.1], [39.94402, -0.10307, 3.9], [43.26433, -2.94938, 3.6], [39.58406, -0.32735, 6.0], [42.79687, -1.63706, 2.5], [42.6013, -8.65185, 1.9], [40.39216, -3.65865, 0.8], [38.26719, -0.66277, 0.82], [41.34837, -2.07453, 1.1], [40.32591, -3.71497, 0.85], [39.59022, -2.62991, 1.0], [36.50272, -6.27294, 1.1], [37.15299, -3.59571, 0.68], [39.49482, -0.36383, 0.52], [42.83713, -2.68818, 0.7]],
+                {"blur": 15, "maxZoom": 18, "minOpacity": 0.5, "radius": 15}
+            ).addTo(map_fde68799abc8fb3ae869bd2368eae562);
+        
+</script>
+</html>

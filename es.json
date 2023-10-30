@@ -1,0 +1,123 @@
+{
+"locations": [
+{
+"city": "Madrid",
+"latitude": 40.4168,
+"longitude": -3.7038,
+"club": "Real Madrid"
+},
+{
+"city": "Barcelona",
+"latitude": 41.3851,
+"longitude": 2.1734,
+"club": "FC Barcelona"
+},
+"city": "Madrid",
+"latitude": 40.43843,
+"longitude": -3.6002,
+"club": "Atletico Madrid"
+},
+{
+"city": "Sevilla",
+"latitude": 37.38424,
+"longitude": -5.971007,
+"club": "Sevilla"
+},
+{
+"city": "Sevilla",
+"latitude": 37.35667,
+"longitude": -5.98172,
+"club": "Real Betis"
+},
+"city": "Donostia-San Sebastian",
+"latitude": 4.30161,
+"longitude": -1.97359,
+"club": "Real Sociedad"
+},
+{
+"city": "Donostia-San Sebastian",
+"latitude": 39.94402,
+"longitude": -0.10307,
+"club": "Villarreal"
+},w
+"city": "Bilbao",
+"latitude": 43.26433,
+"longitude": -2.94938,
+"club": "Athletic Club"
+},
+{
+"city": "Valencia",
+"latitude": 39.58406,
+"longitude": -0.32735,
+"club": "Valencia"
+},
+{
+"city": "Pamplona",
+"latitude": 42.79687,
+"longitude": -1.63706,
+"club": "Osasuna"
+},
+{
+"city": "Vigo",
+"latitude": 42.6013,
+"longitude": -8.65185,
+"club": "Celta Vigo"
+},
+{
+"city": "Madrid",
+"latitude": 40.39216
+"longitude": -3.65865,
+"club": "Rayo Vallecano"
+},
+{
+"city": "Elche",
+"latitude": 38.26719,
+"longitude": -0.66277,
+"club": "Elche"
+},
+{
+"city": "Barcelona",
+"latitude": 41.34837,
+"longitude": -2.07453,
+"club": "Espanyol"
+},
+{
+"city": "Getafe",
+"latitude": 40.32591,
+"longitude": -3.71497,
+"club": "Getafe"
+},
+{
+"city": "Palma de Mallorca",
+"latitude": 39.59022,
+"longitude": -2.62991,
+"club": "Mallorca"
+},
+{
+"city": "Cadiz",
+"latitude": 36.50272,
+"longitude": -6.27294,
+"club": "Cadiz"
+},
+{
+"city": "Granada",
+"latitude": 37.15299,
+"longitude": -3.59571,
+"club": "Granada"
+},
+{
+"city": "Valencia",
+"latitude": 39.49482,
+"longitude": -0.36383,
+"club": "Levante"
+},
+{
+"city": "Vitoria-Gasteiz",
+"latitude": 42.83713,
+"longitude": -2.68818,
+"club": "Alaves"
+}
+]
+}
+
+
